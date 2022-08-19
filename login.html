@@ -1,0 +1,36 @@
+<!-- ユーザ名 tomato202-->
+<!-- 商品管理サイト -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		.Name {margin: 0;
+		      background: #CCFF99;
+		      position: absolute;
+		      top: 50%;
+		      left: 50%;
+		      margin-right: -50%;
+		      transform: translate(-50%, -50%)
+		     }
+		</style>
+  		<meta charset="utf-8">
+  		<title></title>
+	</head>
+<body>
+  <form action="login.php" method="get">
+    <div class = "Name">
+    	<label for="user_id">ユーザ名：</label>
+    	<input type="text" name="user_id">
+    	<p></p>
+
+    	<label for="password">パスワード：</label>
+    	<input type="password" name="password">
+    	<p></p>
+	<input type="hidden" name="start" value="0">
+	<input type="hidden" name="size" value="5">
+    	<input type="submit" name="submitBtn" value="ログイン">
+    </div>
+  </form>
+  	
+</body>
+</html>
